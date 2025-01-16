@@ -53,3 +53,22 @@ print(f"After using del keyword {list1}")
 
 del list1
 # print(list1)  --> Gives error because del list1 deletes the entire list1
+
+# List Slicing -- list_name[start:end:steps]
+li1 = [10,20,30,40,50,60]
+sub_list1=li1[0:4:1]
+print(f"List Slicing: {sub_list1}") # [10, 20, 30, 40]
+
+sub_list2=li1[1::]
+print(sub_list2) # [20, 30, 40, 50, 60]
+
+sub_list3=li1[::2]
+print(sub_list3) # [10, 30, 50]
+
+reverse_list = li1[::-1]
+print(reverse_list) # [60, 50, 40, 30, 20, 10]
+
+print(li1[-1::]) # [60]
+
+
+
