@@ -11,4 +11,10 @@ print(y) # 10 here for loop y value is displayed , for loop y will has global sc
 print(z) # 200
 # print(a) we will get error because a is the local variable
 
-# 1. Explain Login reuired decorator
+'''
+1. Explain Login reuired decorator
+2. What is List Slicing?
+--> Is used to create sublist from main list.
+    Syntax: list_name[start:end:steps]
+
+'''

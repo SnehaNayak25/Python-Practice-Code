@@ -1,19 +1,19 @@
-# #  String which is holding integer value then conversion to int is  possible
-# a = '30'
-# print(a, type(a))
-# b = int(a)
-# print(b, type(b))
+#  String which is holding integer value then conversion to int is  possible
+a = '30'
+print(a, type(a))
+b = int(a)
+print(b, type(b))
 
-# #  String which is holding string value then conversion to int is not possible
-# x ='Kod'
-# print(x, type(x))
-# # y = int(x)
-# # print(y, type(y))
+#  String which is holding string value then conversion to int is not possible
+x ='Kod'
+print(x, type(x))
+# y = int(x)
+# print(y, type(y))
 
 
-# # float()
-# p = float(input('Enter float type data: ')) # 12.22
-# print(p, type(p))
+# float()
+p = float(input('Enter float type data: ')) # 12.22
+print(p, type(p))
 
 '''
 bool()
